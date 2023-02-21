@@ -4,8 +4,8 @@ name: deploy-extpipes-cli
 on:
     push:
         branches:
-            #- main
-            - none
+            - main
+            #- none
 
 jobs:
     deploy_extpipes:
